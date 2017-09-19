@@ -56,7 +56,6 @@ def _play_game(switch_door, doors):
     -------
     int
         0 for loss or 1 for victory in the game
-
     """
     np.random.shuffle(doors)
     if switch_door:
