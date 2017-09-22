@@ -49,8 +49,7 @@ def _play_game(switch_door, doors):
     switch_door : bool
         whether or not to switch doors after being shown a door
     doors : numpy array
-        array with 3 elements (two zeroes and a one) corresponding to
-        wins or loss
+        array with 3 elements (two zeroes and a one) corresponding to wins or losses
 
     Returns
     -------
